@@ -1,0 +1,25 @@
+<p>dashboard works!</p>
+<form class="form-floating">
+  <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.com" value="test@example.com">
+  <label for="floatingInputValue">Input with value</label>
+</form>
+
+<p>dashboard works!</p>
+
+<table *ngFor="let dato of datos">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <!-- Agrega aquí más encabezados de columna si es necesario -->
+    </tr>
+  </thead>
+  <tbody>
+    <tr >
+      <td>{{ dato.Nombre }}</td>
+      <!-- Agrega aquí más celdas de datos si es necesario -->
+    </tr>
+    <tr >
+      <td>{{ dato.Email }}</td>
+    </tr>
+  </tbody>
+</table>
