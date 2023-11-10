@@ -23,3 +23,16 @@
     </tr>
   </tbody>
 </table>
+
+<!-- tu-componente.component.html -->
+
+<div *ngIf="shouldShowVeterinarianSection()">
+  <!-- Contenido específico para Veterinarios -->
+  <p>¡Bienvenido Veterinario!</p>
+</div>
+
+<div *ngIf="shouldShowUserSection()">
+  <!-- Contenido específico para Usuarios -->
+  <p>¡Bienvenido Usuario!</p>
+</div>
+
