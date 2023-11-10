@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+<<<<<<< HEAD
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { LoginComponent } from './components/login/login.component';
 import { TechnicalSupportComponent } from './components/technical-support/technical-support.component';
@@ -26,6 +27,10 @@ const routes: Routes = [
   { path: '**', redirectTo: '/dashboard' }
 
 ];
+=======
+
+const routes: Routes = [];
+>>>>>>> fc0bce00b17db08b93b40e4ffc559dbec9301f16
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
